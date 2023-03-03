@@ -1,0 +1,98 @@
+.experience {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 0 80px 160px;
+
+  h3 {
+    opacity: 0.6;
+
+    &:hover {
+    opacity: 1;
+    }
+  }
+
+  h1 {
+    font-family: "Courier New";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+    padding-bottom: 64px;
+    padding-left: 0;
+  }
+
+  &_list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 48px;
+  }
+
+  &_list_box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+
+    &_right {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0 0 0 30px;
+      gap: 16px;
+
+      p {
+        padding: 0px;
+        gap: 8px;
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 18px;
+      }
+    }
+
+    &_right_title {
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      padding: 0px;
+      gap: 16px;
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 16px;
+        padding: 0 0 0 36px;
+      }
+    }
+
+    &_right_title_role {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding: 0px;
+      gap: 12px;
+
+      p {
+        font-family: "Inter";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        padding: 0;
+      }
+
+      img {
+        width: 22px;
+        height: 22px;
+      }
+    }
+  }
+}

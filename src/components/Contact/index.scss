@@ -1,0 +1,35 @@
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 160px 80px;
+  gap: 10px;
+
+  h3 {
+    font-family: "Courier New";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  p {
+    font-family: "Kanit";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+  }
+
+  &_button img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 20px;
+    width: 120px;
+    height: 100px;
+    margin-top: 40px;
+  }
+
+}
